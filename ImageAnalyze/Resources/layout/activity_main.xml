@@ -1,0 +1,49 @@
+
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:padding="16dp"
+	android:orientation="vertical"
+	android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" /> 
+        <ProgressBar  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"  
+            android:id="@+id/progressBar"  
+            android:visibility="invisible" />    
+
+        <Button
+		    android:id="@+id/captureButton"
+		    android:layout_width="match_parent"  
+            android:layout_height="wrap_content"
+		    android:text="Capture Image"
+	    />
+	
+	    <Button
+		    android:id="@+id/uploadButton"
+		    android:layout_width="match_parent"  
+            android:layout_height="wrap_content"
+		    android:text="Upload Image"
+	    />
+    <Button  
+            android:id="@+id/btnAnalyze"  
+            android:text="Analyze"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content" 
+        />
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:text="Description :"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="43.5dp" />  
+    </LinearLayout>
